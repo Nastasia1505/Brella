@@ -358,3 +358,67 @@ ul {
 .about__diagram_image_column-50 {
   height: 50%;
 }
+
+.advantages{
+  font-family: "Raleway", sans-serif;
+}
+
+.advantages__info{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 85px;
+}
+
+.advantages__content{
+  width: 40%;
+}
+
+.advantages__img{
+  object-fit: contain;
+}
+
+.advantages__suptitle{
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #43806c;
+  margin-bottom: 30px;
+}
+
+.advantages__title{
+  font-size: 36px;
+  line-height: 46px;
+  color: #214e41;
+  margin-bottom: 40px;
+}
+
+.advantages__text{
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.advantages__num{
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.advantages__num_card_title{
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 78px;
+  color: #F0A446;
+  margin-bottom: 30px;
+}
+
+.advantages__num_card_text{
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 22px;
+ color: #214E41;
+}
